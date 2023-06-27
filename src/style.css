@@ -7,4 +7,78 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #d7f1f2;
+  padding-bottom: 0%;
+}
+
+.side {
+  flex-direction: column;
+  border: 1px solid #10bcc8;
+  padding: 2px 2px 25px 2px;
+  vertical-align: top;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  padding-left: 35px;
+  align-self: flex-start;
+  padding-bottom: 45px;
+}
+
+.kitteh {
+  padding: 5px;
+  width: 250px;
+  height: 230px;
+  object-fit: cover;
+}
+
+nav {
+  padding: 10px 100px 10px 100px;
+  background-color: #10bcc8;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+footer {
+  display: flex;
+  background-color: rgba(187, 168, 187, 0.5);
+  flex: 4;
+  font-family: 'PT sans';
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  color: rgba(0, 0, 0, 0.581);
+  font-weight: 100;
+  font-size: 3em;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.581);
+  font-family: 'Cantarell', sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-flow: wrap row-reverse;
+  padding: 4%;
+  padding-bottom: 6%;
+  align-items: baseline;
+}
+
+span {
+  display: flex;
+  color: rgba(0, 0, 0, 0.581);
+  font-family: 'Cantarell', sans-serif;
+  padding-left: 6px;
+  font-size: 28px;
+  align-content: stretch;
 }
